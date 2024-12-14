@@ -1,3 +1,5 @@
+'use client'
+
 import Cards from "@/components/layout/four-cards";
 import SeparatorDemo from "@/components/layout/separater";
 import React from "react";

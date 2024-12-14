@@ -3,7 +3,6 @@ import React from "react";
 import { IoHeart } from "react-icons/io5";
 import { CiHeart } from "react-icons/ci";
 import { useRouter } from "next/navigation";
-import router from "next/router";
 
 export default function TCards() {
 
@@ -105,6 +104,9 @@ export default function TCards() {
 }
 
 export const OneCard = () => {
+
+  const router = useRouter();
+
   return(
      <div className="bg-white w-auto h-auto p-5  mb-2 pl-6 rounded-lg">
      <div className="flex justify-between items-center">

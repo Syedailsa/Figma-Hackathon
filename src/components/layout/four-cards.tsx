@@ -1,11 +1,14 @@
 'use client'
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { IoHeart } from "react-icons/io5";
 import { CiHeart } from "react-icons/ci";
-import router from "next/router";
+import { useRouter } from "next/navigation";
 
 export default function Cards() {
+
+  const router = useRouter();
+
   return (
     <div>
       <section className="text-gray-600 body-font">
